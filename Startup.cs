@@ -4,8 +4,18 @@ namespace GitExercise
 {
     public class Startup
     {
+        private const string Password = "abcd1234";
         public static void Main()
         {
+            bool isAuthorized = CheckCredentials();
+
+            if (!isAuthorized)
+            {
+                Console.WriteLine("Access denied.");
+                Console.ReadKey(true);
+                return;
+            }
+
             Console.WriteLine("Console Calculator App");
             Console.WriteLine(new string('-', 15));
 
@@ -39,6 +49,14 @@ namespace GitExercise
 
             Console.WriteLine("Pres any key to close the app...");
             Console.ReadKey(true);
+        }
+        private static bool CheckCredentials()
+        {
+            Console.WriteLine("Enter password to gain acceess:");
+            string password = Console.ReadLine();
+            Console.Clear();
+
+            return password == Password;
         }
     }
 }
