@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\Project\Calculator\bin\Debug\net6.0\GitExercise.exe
+C:\Users\hp\Desktop\Project\Calculator\bin\Debug\net6.0\GitExercise.deps.json
+C:\Users\hp\Desktop\Project\Calculator\bin\Debug\net6.0\GitExercise.runtimeconfig.json
+C:\Users\hp\Desktop\Project\Calculator\bin\Debug\net6.0\GitExercise.dll
+C:\Users\hp\Desktop\Project\Calculator\bin\Debug\net6.0\GitExercise.pdb
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.AssemblyInfo.cs
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.dll
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\refint\GitExercise.dll
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.pdb
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\GitExercise.genruntimeconfig.cache
+C:\Users\hp\Desktop\Project\Calculator\obj\Debug\net6.0\ref\GitExercise.dll
