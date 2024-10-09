@@ -11,7 +11,10 @@ namespace GitExercise
             "dr - Divide Remainder",
             "ex - exit"
             "d - Devide",
-            "sabs- Substract Abs"
+            "sabs- Substract Abs",
+            "pow - Power",
+            "log - Logarithm",
+            "fact - Sum of 2 factorials"
         };
 
         public static void Add(double a, double b)
@@ -40,6 +43,28 @@ namespace GitExercise
         public static void SubstractAbs(double a, double b)
         {
             Console.WriteLine($"|{a} - {b}| = {Math.Abs(a-b)}");
+        public static void Power(double a, double b)
+        {
+            Console.WriteLine($"{a} ^ {b} = {Math.Pow(a,b)}");
+        }
+        public static void Log(double a, double b)
+        {
+            Console.WriteLine($"Log of {a} with base {b} = {Math.Log(a, b)}");
+        }
+        public static void Factorial(double a, double b)
+        {
+            long factA = CalculateFact((int)a);
+            long factB = CalculateFact((int)b);
+            Console.WriteLine($"{a}! + {b}! = {(int)a} + {(int)b} = {factA + factB} ");
+        }
+        private static long CalculateFact(int a)
+        {
+            long res = a;
+            for (int i = a-1; i >= 1; i--)
+            {
+                res = res * i;
+            }
+            return res;
         }
     }
 }
